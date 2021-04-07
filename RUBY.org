@@ -433,7 +433,7 @@ to create a new git branch) using [[https://www.gnu.org/software/guix/manual/htm
          "0l303w5kzsriqs5gvcbgx5l236hajj5bf76fpv1yymiwnjp7d97k"))))
     (build-system ruby-build-system)
     (arguments
-     '(#:tests? #t)) ; no tests
+     '(#:tests? #f)) ; no tests
     (synopsis "Bio-locus is a tool for fast querying of genome locations")
     (description "This tabix-like tool essentially allows your to
 store this chr+pos or chr+pos+alt information in a fast database.")
